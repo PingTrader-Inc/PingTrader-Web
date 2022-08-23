@@ -68,7 +68,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="grid grid-rows-3 gap-2">
+      <div className="grid grid-rows-7 gap-2">
         <Screener1 />
         <Screener2 />
         <Screener3 />
