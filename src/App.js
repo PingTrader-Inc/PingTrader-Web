@@ -3,6 +3,7 @@ import Screener1 from "./components/Screener1";
 import Screener2 from "./components/Screener2";
 import Screener3 from "./components/Screener3";
 import Screener4 from "./components/Screener4";
+import Screener5 from "./components/Screener5";
 
 function App() {
   return (
@@ -15,7 +16,11 @@ function App() {
         <Screener1 />
         <Screener2 />
         <Screener3 />
+        <p className="text-md font-bold text-gray-400 text-center py-2">Login to see locked content.</p>
         <Screener4 />
+        <Screener4 />
+        <Screener5 />
+        <Screener5 />
       </div>
     </div>
   );
