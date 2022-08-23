@@ -10,7 +10,7 @@ const Screener2 = () => {
 <div className="">
           <div className="py-3 flex flex-row content-center">
             <div className="px-1">
-              <h1 className="text-2xl px-1 font-bold flex flex-row items-center"><div className="px-2"><div className="w-2 h-2 bg-green-300 ring-2 ring-green-500 rounded-full dark:border-gray-900 dark:bg-gray-700"></div></div>Scr2</h1>
+              <h1 className="text-2xl px-1 font-bold flex flex-row items-center"><div className="px-2"><div className="w-2 h-2 bg-green-400 ring-2 ring-green-300 rounded-full dark:border-gray-900 dark:bg-gray-700"></div></div>Scr2</h1>
             </div>
             <div className="px-1 py-1">
               <h1 className="badge text-2xl border-green-900 text-green-900 bg-green-300 px-2 text-xs font-bold">SMA-14</h1>
