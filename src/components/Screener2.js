@@ -28,11 +28,11 @@ const Screener2 = () => {
               <div class="card-body">
                 <h2 class="card-title text-2xl">
                   <img src={eon} className="w-6 h-6"></img>EOS
-                  <div class="badge bg-green-700">+10.55%</div>
+                  <div class="badge bg-green-700">+15.55%</div>
                 </h2>
                 <p>Trade the BTC-EOS Pair now on Binance</p>
                 <div class="card-actions justify-end">
-                  <div class="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3">$1.70</div> 
+                  <div class="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3">$1.78</div> 
                   <div class="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3 ">High</div>
                 </div>
               </div>
