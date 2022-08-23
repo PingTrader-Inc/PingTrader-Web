@@ -13,13 +13,13 @@ function App() {
   return (
     <div className="max-w-8xl mx-auto px-4 py-4 items-center sm:px-6 font-roboto">
       <h2 class="text-center text-yellow-500 card-title text-4xl py-4">
-        <img src={binc} className="w-16 h-16"></img>
-        Binance Screeners
-        <div class="badge bg-white border-green-600 text-green-700 px-3">Data Active</div>
+        <img src={binc} className="w-12 h-12"></img>
+        Binance
+        <div class="badge bg-white border-green-600 text-green-700 px-3">Active</div>
       </h2>
       <div className="text-2xl py-2 font-bold text-black">
         <p className="text-md text-gray-500 text-3xl font-bold py-2">Top 3</p>
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid sm:grid-cols-3 grid-cols-1 gap-2">
           <div className="justify-items-start rounded-lg bg-black text-white shadow-lg px-2 py-2">
             <div class="justify-items-start card">
               <div class="card-body">
