@@ -22,78 +22,78 @@ const Screener5 = () => {
               <h1 className="badge border-indigo-900 text-indigo-900 bg-indigo-300 text-2xl px-2 text-xs font-bold">MACD</h1>
             </div>
           </div>
-        <div className="grid sm:grid-cols-5 grid-cols-1 gap-2 items-center border-2 shadow-md shadow-indigo-300 border-indigo-400  rounded-xl px-3 py-5">
+        <div className="grid sm:grid-cols-5 grid-cols-1 gap-2 items-center rounded-xl">
           <div className="justify-items-start">
-            <div class="justify-items-start card shadow-lg shadow-green-200 h-full bg-gradient-to-r from-green-400 to-green-300 ">
-              <div class="card-body">
-                <h2 class="card-title text-2xl">
+            <div className="justify-items-start card shadow-lg shadow-green-200 h-full bg-gradient-to-r from-green-400 to-green-300 ">
+              <div className="card-body">
+                <h2 className="card-title text-2xl">
                   <img src={eon} className="w-6 h-6"></img>EOS
-                  <div class="badge bg-green-700">+10.55%</div>
+                  <div className="badge bg-green-700">+10.55%</div>
                 </h2>
                 <p>Trade the BTC-EOS Pair now on Binance</p>
-                <div class="card-actions justify-end">
-                  <div class="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3">$1.70</div> 
-                  <div class="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3 ">High</div>
+                <div className="card-actions justify-end">
+                  <div className="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3">$1.70</div> 
+                  <div className="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3 ">High</div>
                 </div>
               </div>
             </div>
           </div>
           <div className="justify-items-start">
-            <div class="justify-items-start card shadow-lg shadow-red-200 h-full bg-gradient-to-r from-red-400 to-red-300 ">
-              <div class="card-body">
-                <h2 class="card-title text-2xl">
+            <div className="justify-items-start card shadow-lg shadow-red-200 h-full bg-gradient-to-r from-red-400 to-red-300 ">
+              <div className="card-body">
+                <h2 className="card-title text-2xl">
                   <img src={ada} className="w-6 h-6"></img>Cardano
-                  <div class="badge bg-red-700">-3.67%</div>
+                  <div className="badge bg-red-700">-3.67%</div>
                 </h2>
                 <p>Trade the BTC-Cardano Pair now on Binance</p>
-                <div class="card-actions justify-end">
-                  <div class="badge bg-red-100 text-red-900 font-bold ring-2 ring-red-400 px-3">$0.44</div> 
-                  <div class="badge bg-red-100 text-red-900 font-bold ring-2 ring-red-400 px-3 ">High</div>
+                <div className="card-actions justify-end">
+                  <div className="badge bg-red-100 text-red-900 font-bold ring-2 ring-red-400 px-3">$0.44</div> 
+                  <div className="badge bg-red-100 text-red-900 font-bold ring-2 ring-red-400 px-3 ">High</div>
                 </div>
               </div>
             </div>
           </div>
           <div className="justify-items-start">
-            <div class="justify-items-start card shadow-lg shadow-green-200 h-full bg-gradient-to-r from-green-400 to-green-300 ">
-              <div class="card-body">
-                <h2 class="card-title text-2xl">
+            <div className="justify-items-start card shadow-lg shadow-green-200 h-full bg-gradient-to-r from-green-400 to-green-300 ">
+              <div className="card-body">
+                <h2 className="card-title text-2xl">
                   <img src={xrp} className="w-6 h-6"></img>Xrpdown
-                  <div class="badge bg-green-700">+3.78%</div>
+                  <div className="badge bg-green-700">+3.78%</div>
                 </h2>
                 <p>Trade the BTC-XRPDOWN Pair now on Binance</p>
-                <div class="card-actions justify-end">
-                  <div class="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3">$0.0009</div> 
-                  <div class="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3 ">Low</div>
+                <div className="card-actions justify-end">
+                  <div className="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3">$0.0009</div> 
+                  <div className="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3 ">Low</div>
                 </div>
               </div>
             </div>
           </div>
           <div className="justify-items-start">
-            <div class="justify-items-start card shadow-lg shadow-green-200 h-full bg-gradient-to-r from-green-400 to-green-300 ">
-              <div class="card-body">
-                <h2 class="card-title text-2xl">
+            <div className="justify-items-start card shadow-lg shadow-green-200 h-full bg-gradient-to-r from-green-400 to-green-300 ">
+              <div className="card-body">
+                <h2 className="card-title text-2xl">
                   <img src={trx} className="w-6 h-6"></img>TRXDOWN
-                  <div class="badge bg-green-700">+3.55%</div>
+                  <div className="badge bg-green-700">+3.55%</div>
                 </h2>
                 <p>Trade the BTC-TRXDOWN Pair now on Binance</p>
-                <div class="card-actions justify-end">
-                  <div class="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3">$1.12</div> 
-                  <div class="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3 ">High</div>
+                <div className="card-actions justify-end">
+                  <div className="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3">$1.12</div> 
+                  <div className="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3 ">High</div>
                 </div>
               </div>
             </div>
           </div>
           <div className="justify-items-start">
-            <div class="justify-items-start card shadow-lg shadow-green-200 h-full bg-gradient-to-r from-green-400 to-green-300 ">
-              <div class="card-body">
-                <h2 class="card-title text-2xl">
+            <div className="justify-items-start card shadow-lg shadow-green-200 h-full bg-gradient-to-r from-green-400 to-green-300 ">
+              <div className="card-body">
+                <h2 className="card-title text-2xl">
                   <img src={qlc} className="w-6 h-6"></img>QLC
-                  <div class="badge bg-green-700">+133.55%</div>
+                  <div className="badge bg-green-700">+133.55%</div>
                 </h2>
                 <p>Trade the BTC-QLC Pair now on Binance</p>
-                <div class="card-actions justify-end">
-                  <div class="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3">$0.026</div> 
-                  <div class="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3 ">High</div>
+                <div className="card-actions justify-end">
+                  <div className="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3">$0.026</div> 
+                  <div className="badge bg-green-100 text-green-900 font-bold ring-2 ring-green-400 px-3 ">High</div>
                 </div>
               </div>
             </div>
